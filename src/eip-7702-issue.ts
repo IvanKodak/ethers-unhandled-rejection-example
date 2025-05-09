@@ -17,7 +17,6 @@ async function main() {
 
         await provider.getBlock(49364730, true)
     } catch (e){
-        // TODO: error "server response 401 Unauthorized" from waitForTransaction doesn't come into this catch
         console.error('TEST', e);
     }
 }
